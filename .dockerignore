@@ -1,0 +1,41 @@
+# Git
+.git
+.gitignore
+
+# Environnements virtuels
+venv
+.env
+.venv
+
+# Fichiers Python compilés
+__pycache__
+*.pyc
+*.pyo
+*.pyd
+
+# Fichiers de logs
+*.log
+
+# Fichiers de base de données
+*.sqlite3
+
+# Fichiers statiques et médias
+staticfiles/
+media/
+
+# Fichiers de développement
+*.dev
+.vscode
+.idea
+
+# Fichiers de système
+.DS_Store
+Thumbs.db
+
+# Docker
+Dockerfile
+docker-compose.yml
+
+# Migrations (optionnel, à adapter selon votre stratégie de déploiement)
+**/migrations/**
+!**/migrations/__init__.py
